@@ -48,7 +48,7 @@ variable "aws_spoke1_cidr" {
 }
 
 variable "aws_test_instance_size" {
-  default = "t3.micro"
+  default = "t2.micro"
 }
 
 variable "azure_account_name" {
